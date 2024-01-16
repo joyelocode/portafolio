@@ -164,3 +164,49 @@ body{
   font-weight: 600;
 }
 
+.guarantee .item > i{
+  color: #fff;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.guarantee .item:hover > i{
+  color: #ffb742;
+}
+
+.seprator{
+  margin: 50px 50px 30px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.08);
+  display: inline-block;
+  color: #ffb742;
+  border-radius: 12px;
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 0 50px;
+}
+
+.about img{
+  width: 280px;
+}
+
+.about .info h3{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about .info p{
+  color: #ccc;
+  font-size: 14px;
+}
+
+.about .info button{
+  margin-top: 30px;
+}
